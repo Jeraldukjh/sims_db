@@ -1,0 +1,60 @@
+/* Center alignment */
+.profile-section {
+    text-align: center;
+}
+
+/* Profile image */
+.profile-pic {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px; /* Centering the image */
+    border: 3px solid #007bff;
+}
+
+/* File upload button */
+.custom-file-upload {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px auto; /* Centers it horizontally */
+    width: 120px; /* Adjust width for uniformity */
+    transition: background 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+/* Upload button */
+.upload-button {
+    display: block;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto; /* Centers it horizontally */
+    width: 120px; /* Matches file upload button width */
+    transition: background 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #218838;
+}
+
+/* Profile name */
+.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
