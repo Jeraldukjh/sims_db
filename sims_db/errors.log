@@ -1,3 +1,0 @@
-[11-Mar-2025 15:35:04 Europe/Berlin] 🛠️ SESSION Data: {"student_id":"2311600073","username":"JeraldAdmin","is_admin":1,"admin_id":21}
-[11-Mar-2025 15:35:04 Europe/Berlin] 📩 POST Data: {"return_item":"true","product_id":"2"}
-[11-Mar-2025 15:35:04 Europe/Berlin] ❌ Database Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sims_db`.`return_requests`, CONSTRAINT `return_requests_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
